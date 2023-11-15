@@ -5,7 +5,7 @@ import { format } from "timeago.js";
 const Events = ({ data }) => {
   return (
 
-    <div className="">
+    <div className="w-11/12 md:w-10/12 max-w-6xl mx-auto">
       {data?.map((ev, i) => (
         <div key={i} className="flex gap-x-4 items-center m-2 bg-white rounded-lg overflow-hidden ring-1 ring-slate-900/5 dark:bg-slate-800 dark:highlight-white/5 dark:ring-0 p-3 leading-8">
           <Link to={`/${ev.actor?.login}`}>

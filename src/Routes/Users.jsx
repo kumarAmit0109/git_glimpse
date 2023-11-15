@@ -38,7 +38,7 @@ const Users = () => {
   // }, [user, setUsers]);
 
   return (
-    <div className="" >
+    <div className="w-11/12 md:w-10/12 max-w-6xl mx-auto" >
      <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white mt-10">
         GitGlimpse: Peek into Your GitHub Universe
      </h1>

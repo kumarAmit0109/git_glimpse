@@ -2,7 +2,7 @@ import React from "react";
 
 const Repo = ({ users }) => {
   return (
-    <div className="">
+    <div className="w-11/12 md:w-10/12 max-w-6xl mx-auto">
       {users.map((s, idx) => (
         <div key={idx} className="bg-white m-2 rounded-lg overflow-hidden ring-1 ring-slate-900/5 dark:bg-slate-800 dark:highlight-white/5 dark:ring-0 p-3 leading-8">
           <a

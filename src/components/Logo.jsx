@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="">
+    <div className="w-11/12 md:w-10/12 max-w-6xl mx-auto">
     <div className="flex border-b border-gray-500 pb-2 justify-center items-center">
       <img
         src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"

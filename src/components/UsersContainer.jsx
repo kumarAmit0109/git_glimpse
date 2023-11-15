@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const UsersContainer = ({ users }) => {
   return (
-    <div>
+    <div className="w-11/12 md:w-10/12 max-w-6xl mx-auto">
     <div className="flex gap-5 flex-wrap justify-center  py-5">
       {users &&
         users?.map((user, idx) =>

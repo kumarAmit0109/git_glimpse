@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="">
      <div className="min-h-screen bg-[#f7f8fc] dark:bg-slate-900">
-      <div div className="container mt-4 text-lg text-slate-700 dark:text-slate-400 py-3">
+      <div div className="container text-lg text-slate-700 dark:text-slate-400 py-3">
         <Navbar/>
         <Logo />
         <Routes>
